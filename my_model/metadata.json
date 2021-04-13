@@ -1,1 +1,14 @@
-{"tfjsVersion":"1.3.1","tmVersion":"2.3.1","packageVersion":"0.8.4","packageName":"@teachablemachine/image","timeStamp":"2021-04-13T11:43:28.848Z","userMetadata":{},"modelName":"RSP","labels":["Paper","Rock","Scissor"]}
+{
+    "tfjsVersion": "1.3.1",
+    "tmVersion": "2.3.1",
+    "packageVersion": "0.8.4",
+    "packageName": "@teachablemachine/image",
+    "timeStamp": "2021-04-13T11:43:28.848Z",
+    "userMetadata": {},
+    "modelName": "RSP",
+    "labels": [
+        "Paper",
+        "Rock",
+        "Scissor"
+    ]
+}
