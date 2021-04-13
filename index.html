@@ -67,10 +67,13 @@
 
             if(prediction[0].probability.toFixed(2) >= 0.9) {
                 labelContainer.childNodes[0].innerHTML = prediction[0].className;
+                console.log(prediction[0].className);
             } else if(prediction[1].probability.toFixed(2) >= 0.9) {
-                labelContainer.childNodes[1].innerHTML = prediction[1].className;
+                labelContainer.childNodes[0].innerHTML = prediction[1].className;
+                console.log(prediction[1].className);
             } else if(prediction[2].probability.toFixed(2) >= 0.9) {
-                labelContainer.childNodes[2].innerHTML = prediction[2].className;
+                labelContainer.childNodes[0].innerHTML = prediction[2].className;
+                console.log(prediction[2].className);
             }
         }
     </script>
